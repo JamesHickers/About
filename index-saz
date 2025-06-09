@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="description" content="Saz by 4zx16 & Blood Gang™️ – a high-performance Roblox executor with F3X, NPC tools, and more. Discover features, credits, and community links."/>
+  <meta name="keywords" content="Saz, Roblox Executor, 4zx16, Blood Gang Inc, Roblox scripting, F3X, NPC tools"/>
+  <meta name="author" content="4zx16"/>
+  <title>Saz | Roblox Executor by 4zx16</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Saz</h1>
+    <p class="intro">A powerful and user-friendly Roblox executor by <strong>4zx16</strong>, designed to enhance gaming experience with F3X, NPC tools, and high-performance scripting.</p>
 
+    <div class="section">
+      <h2>Embedded Documentation</h2>
+      <iframe src="https://blood-gang-inc.github.io/Saz/" loading="lazy"></iframe>
+    </div>
+
+    <div class="section">
+      <h2>Project Snapshot</h2>
+      <ul>
+        <li><strong>F3X</strong> – Auto-updating building tools</li>
+        <li><strong>NPC</strong> – Character and AI interactions</li>
+      </ul>
+      <p>Credits:</p>
+      <ul>
+        <li><strong>4zx16</strong> – Founder & Lead Developer</li>
+        <li><strong>christopherdis</strong> – UI Designer</li>
+        <li><strong>7zh14</strong> – Punishment Module Developer</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Quick Links</h2>
+      <p><a href="https://github.com/Blood-Gang-Inc/Saz" target="_blank">GitHub Repository</a> | <a href="https://linkr.it/saz" target="_blank">Join the Discord/Docs</a></p>
+    </div>
+
+    <footer>
+      <p>© 2022 Blood Gang™️, Inc. – Designed by 4zx16</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
