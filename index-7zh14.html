@@ -4,44 +4,115 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="index, follow" />
-  <meta name="description" content="Discover the full online presence of 7zh14, including development, community roles, and personal design showcased across Carrd pages." />
-  <meta name="keywords" content="7zh14, Developer, Carrd, Portfolio, Game Dev, Design, UI/UX, Degenerates Network" />
+  <meta name="description" content="Discover the full online presence of 7zh14, including development, community roles, and personal design." />
+  <meta name="keywords" content="7zh14, Developer, Portfolio, Game Dev, Design, UI/UX, Degenerates Network" />
   <meta name="author" content="7zh14" />
-  <link rel="stylesheet" href="styles.css" />
   <title>7zh14 | Full Developer Profile</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
-    .container { max-width: 1200px; margin: auto; padding: 20px; }
-    h1, h2 { text-align: center; color: #333; }
-    iframe { width: 100%; height: 600px; border: none; margin: 30px 0; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; color: #333; }
+    .container { max-width: 900px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+    h1, h2, h3 { text-align: center; margin-bottom: 0.5rem; }
     p { text-align: center; color: #555; }
+    ul { max-width: 800px; margin: 10px auto 20px auto; padding-left: 20px; }
+    li { margin-bottom: 6px; color: #444; }
+    a { color: #007acc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    button { 
+      display: block; 
+      margin: 10px auto 30px auto; 
+      padding: 0.5rem 1.2rem; 
+      font-size: 1rem; 
+      cursor: pointer; 
+      border-radius: 5px; 
+      border: 1px solid #666; 
+      background: #eee; 
+      transition: background 0.3s ease;
+    }
+    button:hover { background: #ddd; }
+    .hidden-section { display: none; max-width: 850px; margin: auto; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>7zh14 | Creative & Technical Showcase</h1>
-    <p>Browse all of 7zh14’s official Carrd pages and related profiles, highlighting their developer experience, design work, and community roles.</p>
+    <p>All you need to know about 7zh14’s development career, skills, community roles, and personal background — no fluff, just facts.</p>
+
+    <section>
+      <h2>Personal Info & Career</h2>
+      <button type="button" onclick="toggleVisibility('career-details')">Show More</button>
+      <div id="career-details" class="hidden-section">
+        <ul>
+          <li><strong>Real Name:</strong> Unknown (goes by 7zh14)</li>
+          <li><strong>Role:</strong> Co-founder of Bloodware Inc., Dead Lantern Games (DLG), Velxy Studios (WSI), ARZA, and Krynet</li>
+          <li><strong>Personality:</strong> ISTP, Scorpio, best friends with <a href="4zx16.html">4zx16</a></li>
+          <li><strong>Career Timeline:</strong> Roblox developer (2018–2024), switched to Unreal Engine & Unity since 2024</li>
+          <li><strong>Primary Skills:</strong> 3D modeling, audio design, UI/UX, light scripting (not strong in programming)</li>
+          <li><strong>Known Weakness:</strong> Exaggerates programming skills; seen more as designer/modeler than coder</li>
+          <li><strong>Other Jobs:</strong> Part-time bar bouncer</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Hardware & Setup</h2>
+      <button type="button" onclick="toggleVisibility('hardware-details')">Show More</button>
+      <div id="hardware-details" class="hidden-section">
+        <ul>
+          <li><strong>Laptop:</strong> Acer Predator Helios 16 — i9-14900HX CPU, RTX 4070 GPU, 64 GB DDR5 RAM, 2 TB PCIe SSD</li>
+          <li><strong>Consoles:</strong> PS3, NES, PS5, Xbox One S, Xbox 360</li>
+          <li><strong>Software:</strong> Unreal Engine, Unity Engine, audio editors, UI design tools</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Health Conditions</h2>
+      <button type="button" onclick="toggleVisibility('health-details')">Show More</button>
+      <div id="health-details" class="hidden-section">
+        <ul>
+          <li>CIPA (vision impairment)</li>
+          <li>GERD (acid reflux)</li>
+          <li>ADHD</li>
+          <li>Cachexia (weight loss/muscle wasting)</li>
+          <li>Anxiety</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Community & Reputation</h2>
+      <button type="button" onclick="toggleVisibility('community-details')">Show More</button>
+      <div id="community-details" class="hidden-section">
+        <ul>
+          <li>Known more as a designer and modeler than a programmer</li>
+          <li>Close relationship with 4zx16; co-leads multiple projects</li>
+          <li>Contributes to UI/UX design, audio production, and light scripting</li>
+          <li>Active member of Degenerates Network</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects & Contributions</h2>
+      <button type="button" onclick="toggleVisibility('projects-details')">Show More</button>
+      <div id="projects-details" class="hidden-section">
+        <ul>
+          <li>Worked on Dead Lantern Games (DLG) — mature horror and shooter titles using Unreal Engine</li>
+          <li>Contributed to Velxy Studios (WSI) — Unity-powered kid-friendly game studio</li>
+          <li>Helped develop Krynet — a privacy-focused, API-first social platform</li>
+          <li>Involved in UI and audio asset creation across projects</li>
+        </ul>
+      </div>
+    </section>
+
   </div>
-    <div class="section">
-    <h2>Main Profile</h2>
-    <iframe src="https://7zh14.carrd.co/"></iframe>
-    </div>
-    <div class="section">
-    <h2>Developer Portfolio</h2>
-    <iframe src="https://7zh14-dev.carrd.co/"></iframe>
-    </div>
-    <div class="section">
-    <h2>Info Page</h2>
-    <iframe src="http://7zh14-info.carrd.co/"></iframe>
-    </div>
-<div class="section">
-    <h2>Extended Info</h2>
-    <iframe src="https://7zh14-info2.carrd.co/"></iframe>
-</div>
-<div class="section">
-    <h2>Community Involvement (Degenerates Network)</h2>
-    <iframe src="https://degenerates2.carrd.co/#l7zh14"></iframe>
-</div>
-<script src="script.js"></script>
+
+  <script>
+    function toggleVisibility(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
 </body>
 </html>
