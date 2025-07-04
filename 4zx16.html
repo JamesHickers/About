@@ -28,20 +28,22 @@
     }
     button:hover { background: #ddd; }
     .hidden-section { display: none; }
+    a { color: #007acc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>4zx16 | Web Portfolio & Project Showcase</h1>
-    <p>Click the buttons below to reveal detailed info about 4zx16 and associates.</p>
+    <p>Click the buttons below to reveal detailed info about 4zx16. Want info on his close partner? Check out <a href="7zh14.html">7zh14's profile here</a>. Curious about <a href="saz.html">Saz Executor?</a> Learn more on that page.</p>
+    
     <section>
       <h2>Public Profiles & Web Presence</h2>
       <button type="button" onclick="toggleVisibility('profile-section')">Show More</button>
       <div id="profile-section" class="hidden-section">
-        <h3>4zx16</h3>
         <ul>
           <li><strong>Aliases:</strong> Dark_12400, xqmvi, xqmvx, Bluishparrot70</li>
-          <li><strong>About:</strong> Gray-hat hacker, full-stack developer, founder of Bloodware Inc. Known for controversial Roblox tools like Saz and Radios.</li>
+          <li><strong>About:</strong> Gray-hat hacker, full-stack developer, founder of Bloodware Inc. Known for controversial Roblox tools like Radios.</li>
           <li><strong>Career:</strong> Roblox (2017–2024) → Unreal Engine & Unity (2024–present)</li>
           <li><strong>Devices:</strong> Acer Predator Helios 16, ASUS Vivobook 15, PS5 Slim, Xbox One S, etc.</li>
           <li><strong>Software:</strong> VS Code, OBS, Unity, Unreal Engine, Discord, Microsoft Edge</li>
@@ -50,23 +52,16 @@
           <li><strong>Income:</strong> $100,000/year</li>
           <li><strong>Reputation:</strong> Feared scripter with a vengeful coding style</li>
         </ul>
-        <h3>7zh14</h3>
-        <ul>
-          <li><strong>Known For:</strong> 3D modeling, sound design, UI; bar bouncer IRL</li>
-          <li><strong>Career:</strong> Roblox (2018–2024) → Unreal & Unity (2024–present)</li>
-          <li><strong>Hardware:</strong> Acer Predator Helios 16, i9-14900HX, RTX 4070, 64GB RAM</li>
-          <li><strong>Conditions:</strong> CIPA, ADHD, GERD, anxiety, Cachexia</li>
-          <li><strong>Weakness:</strong> Considered a fraud programmer by some</li>
-        </ul>
       </div>
     </section>
+    
     <section>
       <h2>GitHub Repositories</h2>
       <button type="button" onclick="toggleVisibility('github-section')">Show More</button>
       <div id="github-section" class="hidden-section">
         <ul>
           <li><a href="https://github.com/Blood-Gang-Inc/Radios/releases" target="_blank" rel="noopener noreferrer">Radios</a> — Boombox script series</li>
-          <li><a href="https://blood-gang-inc.github.io/Saz" target="_blank" rel="noopener noreferrer">Saz Executor</a></li>
+          <li><a href="saz.html">Saz Executor — Learn more here</a></li>
         </ul>
         <h3>Game Projects</h3>
         <ul>
@@ -75,6 +70,7 @@
         </ul>
       </div>
     </section>
+    
     <section>
       <h2>Companies & Subsidiaries</h2>
       <button type="button" onclick="toggleVisibility('companies-section')">Show More</button>
@@ -91,15 +87,12 @@
       </div>
     </section>
   </div>
+  
   <script>
     function toggleVisibility(id) {
       const el = document.getElementById(id);
       if (!el) return;
-      if (el.style.display === 'block') {
-        el.style.display = 'none';
-      } else {
-        el.style.display = 'block';
-      }
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
     }
   </script>
 </body>
