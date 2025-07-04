@@ -7,41 +7,101 @@
   <meta name="description" content="Explore 4zx16's creative and technical web presence, including game development, UI/UX design, Roblox scripting, Unreal Engine projects, and community roles." />
   <meta name="keywords" content="4zx16, Blood Gang, Roblox Developer, Unreal Engine, Carrd, Scripting, UI/UX Design, Dead Lantern Games, Waist Studios, Degenerates Network" />
   <meta name="author" content="4zx16" />
-  <link rel="stylesheet" href="styles.css" />
   <title>4zx16 | Web Portfolio & Project Showcase</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
-    .container { max-width: 1200px; margin: auto; padding: 20px; }
-    h1, h2 { text-align: center; color: #333; }
-    iframe { width: 100%; height: 600px; border: none; margin: 30px 0; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; color: #333; }
+    .container { max-width: 900px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+    h1, h2, h3 { text-align: center; margin-bottom: 0.5rem; }
     p { text-align: center; color: #555; }
+    ul { max-width: 800px; margin: 10px auto 20px auto; padding-left: 20px; }
+    li { margin-bottom: 6px; color: #444; }
+    button { 
+      display: block; 
+      margin: 10px auto 30px auto; 
+      padding: 0.5rem 1.2rem; 
+      font-size: 1rem; 
+      cursor: pointer; 
+      border-radius: 5px; 
+      border: 1px solid #666; 
+      background: #eee; 
+      transition: background 0.3s ease;
+    }
+    button:hover { background: #ddd; }
+    .hidden-section { display: none; }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>4zx16 | Web Presence & Technical Overview</h1>
-    <p>Embedded views of 4zx16's official Carrd sites and related pages, showcasing game development, design work, and group activity.</p>
-<div class="section">
-    <h2>About 4zx16</h2>
-    <iframe src="https://about4zx16.carrd.co/"></iframe>
-</div>
-<div class="section">
-    <h2>4zx16 Info Page</h2>
-    <iframe src="https://4zx16-info.carrd.co/"></iframe>
-</div
-<div class="section">
-    <h2>Personal Carrd</h2>
-    <iframe src="https://4zx16.carrd.co/"></iframe>
-</div>
-<div class="section">
-    <h2>Developer Portfolio</h2>
-    <iframe src="https://4zx16-dev.carrd.co/"></iframe>
-</div>
-<div class="section">
-    <h2>Community Involvement (Degenerates Network)</h2>
-    <iframe src="https://degenerates2.carrd.co/#l4zx16"></iframe>
-</div>
+    <h1>4zx16 | Web Portfolio & Project Showcase</h1>
+    <p>Click the buttons below to reveal detailed info about 4zx16 and associates.</p>
+    <section>
+      <h2>Public Profiles & Web Presence</h2>
+      <button type="button" onclick="toggleVisibility('profile-section')">Show More</button>
+      <div id="profile-section" class="hidden-section">
+        <h3>4zx16</h3>
+        <ul>
+          <li><strong>Aliases:</strong> Dark_12400, xqmvi, xqmvx, Bluishparrot70</li>
+          <li><strong>About:</strong> Gray-hat hacker, full-stack developer, founder of Bloodware Inc. Known for controversial Roblox tools like Saz and Radios.</li>
+          <li><strong>Career:</strong> Roblox (2017–2024) → Unreal Engine & Unity (2024–present)</li>
+          <li><strong>Devices:</strong> Acer Predator Helios 16, ASUS Vivobook 15, PS5 Slim, Xbox One S, etc.</li>
+          <li><strong>Software:</strong> VS Code, OBS, Unity, Unreal Engine, Discord, Microsoft Edge</li>
+          <li><strong>Health:</strong> Scoliosis, ASPD, insomnia, OCD, depression, high-functioning autism</li>
+          <li><strong>Certifications:</strong> Cybersecurity Essentials, HR, Finance, Time Management, etc.</li>
+          <li><strong>Income:</strong> $100,000/year</li>
+          <li><strong>Reputation:</strong> Feared scripter with a vengeful coding style</li>
+        </ul>
+        <h3>7zh14</h3>
+        <ul>
+          <li><strong>Known For:</strong> 3D modeling, sound design, UI; bar bouncer IRL</li>
+          <li><strong>Career:</strong> Roblox (2018–2024) → Unreal & Unity (2024–present)</li>
+          <li><strong>Hardware:</strong> Acer Predator Helios 16, i9-14900HX, RTX 4070, 64GB RAM</li>
+          <li><strong>Conditions:</strong> CIPA, ADHD, GERD, anxiety, Cachexia</li>
+          <li><strong>Weakness:</strong> Considered a fraud programmer by some</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>GitHub Repositories</h2>
+      <button type="button" onclick="toggleVisibility('github-section')">Show More</button>
+      <div id="github-section" class="hidden-section">
+        <ul>
+          <li><a href="https://github.com/4zx16/DLG" target="_blank" rel="noopener noreferrer">DLG</a> — Dead Lantern Games dev hub</li>
+          <li><a href="https://github.com/Blood-Gang-Inc/Radios/releases" target="_blank" rel="noopener noreferrer">Radios</a> — Boombox script series</li>
+          <li><a href="https://blood-gang-inc.github.io/Saz" target="_blank" rel="noopener noreferrer">Saz Executor</a> — with UI from 7zh14</li>
+        </ul>
+        <h3>Game Projects</h3>
+        <ul>
+          <li><strong>Boombox</strong> — Released in 2020, famous Roblox radio game</li>
+          <li><strong>UTG Series</strong> — UTG, UTG 2, UTG 3 (Team Force projects)</li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <h2>Companies & Subsidiaries</h2>
+      <button type="button" onclick="toggleVisibility('companies-section')">Show More</button>
+      <div id="companies-section" class="hidden-section">
+        <ul>
+          <li><strong>Bloodware Inc. (BGI):</strong> Oversees multiple independent brands</li>
+          <li><strong>ARZA:</strong> High-end PC manufacturer using only premium components</li>
+          <li><strong>Dead Lantern Games (DLG):</strong> Mature horror & shooter games (Unreal Engine)</li>
+          <li><strong>Velxy Studios:</strong> Unity-powered youth-friendly games</li>
+          <li><strong>Krynet:</strong> API-first secure social platform (secretive)</li>
+          <li><strong>Ichorware:</strong> R&D for AI, bypass tools, backend systems</li>
+        </ul>
+        <p style="font-style: italic;">Note: All companies operate independently but share leadership under Bloodware Inc.</p>
+      </div>
+    </section>
   </div>
-<script src="script.js"></script>
+  <script>
+    function toggleVisibility(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      if (el.style.display === 'block') {
+        el.style.display = 'none';
+      } else {
+        el.style.display = 'block';
+      }
+    }
+  </script>
 </body>
 </html>
