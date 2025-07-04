@@ -8,6 +8,7 @@
   <meta name="keywords" content="7zh14, Developer, Portfolio, Game Dev, Design, UI/UX, Degenerates Network" />
   <meta name="author" content="7zh14" />
   <title>7zh14 | Full Developer Profile</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
     body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; color: #333; }
     .container { max-width: 900px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
@@ -36,7 +37,6 @@
   <div class="container">
     <h1>7zh14 | Creative & Technical Showcase</h1>
     <p>All you need to know about 7zh14’s development career, skills, community roles, and personal background — no fluff, just facts.</p>
-
     <section>
       <h2>Personal Info & Career</h2>
       <button type="button" onclick="toggleVisibility('career-details')">Show More</button>
@@ -52,7 +52,6 @@
         </ul>
       </div>
     </section>
-
     <section>
       <h2>Hardware & Setup</h2>
       <button type="button" onclick="toggleVisibility('hardware-details')">Show More</button>
@@ -64,7 +63,6 @@
         </ul>
       </div>
     </section>
-
     <section>
       <h2>Health Conditions</h2>
       <button type="button" onclick="toggleVisibility('health-details')">Show More</button>
@@ -78,7 +76,6 @@
         </ul>
       </div>
     </section>
-
     <section>
       <h2>Community & Reputation</h2>
       <button type="button" onclick="toggleVisibility('community-details')">Show More</button>
@@ -91,7 +88,6 @@
         </ul>
       </div>
     </section>
-
     <section>
       <h2>Projects & Contributions</h2>
       <button type="button" onclick="toggleVisibility('projects-details')">Show More</button>
@@ -104,9 +100,8 @@
         </ul>
       </div>
     </section>
-
   </div>
-
+  <script src="script.js"></script>
   <script>
     function toggleVisibility(id) {
       const el = document.getElementById(id);
