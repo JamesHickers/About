@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="Explore BarneyTheKid7's creative portfolio, showcasing game development, design, and personal insights." />
+  <meta name="keywords" content="BarneyTheKid7, Roblox Developer, Game Dev, Portfolio, Indie Developer, UI Design, Skidding, Cracking Scripts" />
+  <meta name="author" content="BarneyTheKid7" />
+  <title>BarneyTheKid7 | Developer & Creative Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0; padding: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    p, li {
+      line-height: 1.5;
+      color: #444;
+    }
+    ul {
+      padding-left: 20px;
+      max-width: 800px;
+      margin: 10px auto 20px auto;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    button {
+      display: block;
+      margin: 10px auto 30px auto;
+      padding: 0.5rem 1.2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      border: 1px solid #666;
+      background: #eee;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #ddd;
+    }
+    .hidden-section {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BarneyTheKid7 | Developer & Creative Portfolio</h1>
+    <p>This page lays down who Barney is — an indie Roblox dev with a love for skidding and cracking scripts, real talk about skills and hustle.</p>
+
+    <section>
+      <h2>About Me</h2>
+      <button type="button" onclick="toggleVisibility('about-section')">Show More</button>
+      <div id="about-section" class="hidden-section">
+        <ul>
+          <li><strong>Preferred Name:</strong> Barney</li>
+          <li><strong>Born:</strong> August 3, 2004 (Leo vibes, fire sign energy)</li>
+          <li><strong>Education:</strong> High school dropout, college dropout (skipped the norm, took the grind)</li>
+          <li><strong>Work:</strong> Food City (keeping it real), indie Roblox game developer</li>
+          <li><strong>Skills:</strong> Loves stealing models, skidding & cracking scripts, zero formal coding experience but owns the skids game</li>
+          <li><strong>Cybersecurity Knowledge:</strong> Nah, barely knows the basics, no certs, just raw passion</li>
+          <li><strong>Indie Web Dev:</strong> Dabbles in it, but main love is Roblox and skidding</li>
+          <li><strong>Personality:</strong> Bold, unapologetic, calls out sissies, true Leo roar</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects & Interests</h2>
+      <button type="button" onclick="toggleVisibility('projects-section')">Show More</button>
+      <div id="projects-section" class="hidden-section">
+        <ul>
+          <li><strong>Roblox Games:</strong> Mostly stolen assets with some custom touches, loves building and tweaking gameplay</li>
+          <li><strong>Skidding & Cracking:</strong> Known in the scene for ripping scripts and calling it like it is</li>
+          <li><strong>Web Dev:</strong> Indie stuff, mostly simple projects and experimenting</li>
+          <li><strong>Community:</strong> Loves calling out fake devs and sissies, keeps it 100%</li>
+          <li><strong>Future Goals:</strong> Not really about certificates or formal paths, more about creating and dominating in his own lane</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p style="text-align:center; font-style: italic; color: #666; margin-top: 40px;">
+        This portfolio is real talk, no sugar-coating — BarneyTheKid7’s raw developer journey.
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    function toggleVisibility(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      if (el.style.display === 'block') {
+        el.style.display = 'none';
+      } else {
+        el.style.display = 'block';
+      }
+    }
+  </script>
+</body>
+</html>
