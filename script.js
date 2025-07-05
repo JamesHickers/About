@@ -208,7 +208,7 @@ function readingProgress() {
 function toggleVisibility(id) {
   const el = document.getElementById(id);
   if (!el) return;
-  el.classList.toggle('visible-section');
+  el.classList.toggle('hidden-section');
 }
 // ====================================
 // INITIALIZE EVERYTHING ON DOM LOAD
