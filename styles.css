@@ -188,6 +188,21 @@ code {
   color: #eee;
 }
 
+.hidden-section {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+}
+
+.visible-section {
+  display: block; /* fallback for non-transition */
+  opacity: 1;
+  max-height: 1000px; /* big enough for content */
+  overflow: visible;
+}
+
+
 /* ====================
    RESPONSIVENESS
 ==================== */
