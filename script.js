@@ -202,7 +202,11 @@ function readingProgress() {
     progressBar.style.width = `${scrollPercent}%`;
   }, 50));
 }
-
+function toggleVisibility(id) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.classList.toggle('visible-section');
+}
 // ====================================
 // INITIALIZE EVERYTHING ON DOM LOAD
 // ====================================
@@ -216,4 +220,5 @@ document.addEventListener("DOMContentLoaded", () => {
   preserveScrollPosition();
   autoResizeIframes();
   readingProgress();
+  toggleVisiblity();
 });
