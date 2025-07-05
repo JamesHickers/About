@@ -202,6 +202,9 @@ function readingProgress() {
     progressBar.style.width = `${scrollPercent}%`;
   }, 50));
 }
+// ====================================
+// TOGGLE VISIBILITY
+// ====================================
 function toggleVisibility(id) {
   const el = document.getElementById(id);
   if (!el) return;
@@ -220,5 +223,4 @@ document.addEventListener("DOMContentLoaded", () => {
   preserveScrollPosition();
   autoResizeIframes();
   readingProgress();
-  toggleVisiblity();
 });
